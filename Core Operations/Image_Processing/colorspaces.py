@@ -3,7 +3,7 @@
 # @Author: Jingrou Wu
 # @Date:   2018-08-08 16:20:03
 # @Last Modified by:   Jingrou Wu
-# @Last Modified time: 2018-08-08 17:08:36
+# @Last Modified time: 2018-08-08 17:26:31
 
 import cv2
 import numpy as np
@@ -39,7 +39,6 @@ while(1):
     cv2.imshow('hsv', hsv)
     cv2.imshow('mask', mask)
     cv2.imshow('res', res)
-
     key = cv2.waitKey(5) & 0xFF
     if key == 27:
         break
